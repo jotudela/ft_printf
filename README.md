@@ -60,7 +60,7 @@ the ft_printf linked to it.
 
 There is a simple program called `test.c`:
 
-```bash
+```c
 //Include header form ft_printf.h
 #include "ft_printf.h"
 #include <stdio.h>
