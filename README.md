@@ -63,17 +63,25 @@ There is a simple program called `test.c`:
 ```bash
 //Include header form ft_printf.h
 #include "ft_printf.h"
+#include <stdio.h>
 
-int main( void )
+int main(void)
 {
     char c = 'a';
-    char* str = "Hello World !";
+    char *str = "Hello World !";
     int p = 42;
     int d = 66;
     int i = 21;
     unsigned int u = 32;
 
-    ft_printf("%%, %c, %s, %p, %d, %i, %u, %x, %X\n", c, str, (void *)&p, d, i, u, 0xFF, 0xFF);
+    // Test avec ton ft_printf
+    ft_printf("FT : %%, %c, %s, %p, %d, %i, %u, %x, %X\n",
+              c, str, (void *)&p, d, i, u, 0xFF, 0xFF);
+
+    // Test avec printf standard
+    printf("STD: %%, %c, %s, %p, %d, %i, %u, %x, %X\n",
+           c, str, (void *)&p, d, i, u, 0xFF, 0xFF);
+
     return 0;
 }
 ```
