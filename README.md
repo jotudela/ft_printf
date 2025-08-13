@@ -73,7 +73,7 @@ int main( void )
     int i = 21;
     unsigned int u = 32;
 
-    ft_printf("%%, %c, %s, %p, %d, %i, %u, %x, %X\n", c, str, (void *)p, d, i, u, 0xFF, 0xFF);
+    ft_printf("%%, %c, %s, %p, %d, %i, %u, %x, %X\n", c, str, (void *)&p, d, i, u, 0xFF, 0xFF);
     return 0;
 }
 ```
