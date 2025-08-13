@@ -9,7 +9,7 @@ Through this project, we revisit the basics of C such as :
 - print a string
 - print numbers
 - print in hexa-decimal format
-- print adress
+- print address
 - print usigned munbers
 
 And, the center of this project is to use `variable arguments`.
@@ -26,16 +26,15 @@ Formats supported : `c s p d i u x X %`
 
 Here, a litle explanation of each format :
 
-|           Specifier            |
 | Format Specifier | Description |
 |------------------|-------------|
-| c                | write a single character |
-| s                | write a string |
-| p                | writes an implementation-defined character sequence defining a pointer address |
-| d                | write a decimal number in base 10 |
-| i                | write an integer number in base 10 |
-| u                | write an unsigned number |
-| x or X           | writes an unsigned integer to hexadecimal representation |
+| %                | % followed by another % character writes % to the screen. |
+| c                | writes a single character. |
+| s                | writes a character string. |
+| p                | writes an implementation-defined character sequence defining a pointer address. |
+| d or i           | writes a signed integer to decimal representation. |
+| u                | writes an unsigned integer to decimal representation. |
+| x or X           | writes an unsigned integer to hexadecimal representation. |
 
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -46,29 +45,35 @@ Step 1:
 
 Run in your shell environment :
 ```bash
-git clone https://github.com/jotudela/Libft.git
-cd libft
+git clone https://github.com/jotudela/ft_printf.git
+cd ft_printf
 make
 ```
-Now you have `libft.a` which is a static library.
+Now you have `libftprintf.a` which is a static library.
 
 ---
 
 Step 2:
 
-Next step is to import `libft.a` and `libft.h` at the root of your own project, and use
-the functions linked to it.
+Next step is to import `libftprintf.a` and `ft_printf.h` at the root of your own project, and use
+the ft_printf linked to it.
 
 There is a simple program called `test.c`:
 
 ```bash
 //Include header form libft.h
-#include "libft.h"
+#include "ft_printf.h"
 
 int main( void )
 {
-    //ft_putstr_fd is a function which take a string and a file descriptor as arguments.
-    ft_putstr_fd("Hello World !", 1);
+    char c = 'a';
+    char* str = "Hello World !";
+    int p = 42;
+    int d = 66;
+    int i = 21;
+    usigned int u = 32;
+
+    ft_printf("%%, %c, %s, %p, %d, %i, %u, %x, %X\n", c, str, (void *)p, d, i, u, 0xFF, 0xFF);
     return 0;
 }
 ```
@@ -77,7 +82,7 @@ Step 3:
 
 Once the file is builded, compile it with this :
 ```bash
-gcc -Wall -Wextra -Werror libft.a test.c -o program
+gcc -Wall -Wextra -Werror libftprintf.a test.c -o program
 ```
 
 Step 4:
@@ -89,7 +94,7 @@ Run with this :
 
 And your terminal will print :
 ```bash
-Hello World !
+%, a, Hello World !, address of variable p, 66, 21, 32
 ```
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
