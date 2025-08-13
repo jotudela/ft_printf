@@ -26,17 +26,18 @@ Formats supported : `c s p d i u x X %`
 
 Here, a litle explanation of each format :
 
-| Specifier                      |
-|--------------------------------|
+**Specifiers Table**
+
 | Format Specifier | Description |
 |------------------|-------------|
 | c                | write a single character |
 | s                | write a string |
-| p                | write writes an implementation-defined character sequence defining a pointer address |
+| p                | writes an implementation-defined character sequence defining a pointer address |
 | d                | write a decimal number in base 10 |
-| i                | write a integer number in base 10 |
-| u                | write a unsigned number |
+| i                | write an integer number in base 10 |
+| u                | write an unsigned number |
 | x or X           | writes an unsigned integer to hexadecimal representation |
+
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
