@@ -123,5 +123,12 @@ And your terminal will print :
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+My final grade :
+
+![](imgs/100%)
+
+![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
 ## 🤝 Contribution
 Contributions are open, make a pull request or open an issue 🚀
