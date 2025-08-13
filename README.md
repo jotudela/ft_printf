@@ -123,7 +123,7 @@ And your terminal will print :
 
 My final grade :
 
-![](imgs/100%.png)
+![](imgs/100_percent.png)
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
