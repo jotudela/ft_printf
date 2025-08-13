@@ -76,6 +76,7 @@ int main(void)
 
     // Test with my ft_printf
     ft_printf("FT : %%, ");
+    ft_printf("%c, ", c);
     ft_printf("%s, ", str);
     ft_printf("%p, ", (void *)&p);
     ft_printf("%d, ", d);
@@ -85,6 +86,7 @@ int main(void)
 
     // Test with printf standard
     printf("STD : %%, ");
+    printf("%c, ", c);
     printf("%s, ", str);
     printf("%p, ", (void *)&p);
     printf("%d, ", d);
