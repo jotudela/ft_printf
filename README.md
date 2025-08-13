@@ -30,13 +30,13 @@ Here, a litle explanation of each format :
 |--------------------------------|
 | Format Specifier | Description |
 |------------------|-------------|
-| c | write a single character |
-| s | write a string |
-| p | write writes an implementation-defined character sequence defining a pointer address |
-| d | write a decimal number in base 10 |
-| i | write a integer number in base 10 |
-| u | write a unsigned number |
-| x or X | writes an unsigned integer to hexadecimal representation |
+| c                | write a single character |
+| s                | write a string |
+| p                | write writes an implementation-defined character sequence defining a pointer address |
+| d                | write a decimal number in base 10 |
+| i                | write a integer number in base 10 |
+| u                | write a unsigned number |
+| x or X           | writes an unsigned integer to hexadecimal representation |
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
