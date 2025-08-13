@@ -121,14 +121,11 @@ And your terminal will print :
 %, a, Hello World !, address of variable p, 66, 21, 32, ff, FF
 ```
 
-![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 My final grade :
 
 ![](imgs/100%.png)
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 
 ## 🤝 Contribution
 Contributions are open, make a pull request or open an issue 🚀
