@@ -74,13 +74,23 @@ int main(void)
     int i = 21;
     unsigned int u = 32;
 
-    // Test avec ton ft_printf
-    ft_printf("FT : %%, %c, %s, %p, %d, %i, %u, %x, %X\n",
-              c, str, (void *)&p, d, i, u, 0xFF, 0xFF);
+    // Test with my ft_printf
+    ft_printf("FT : %%, ");
+    ft_printf("%s, ", str);
+    ft_printf("%p, ", (void *)&p);
+    ft_printf("%d, ", d);
+    ft_printf("%i, ", i);
+    ft_printf("%u, ", u);
+    ft_printf("%x, %X\n", 0xFF, 0xFF);
 
-    // Test avec printf standard
-    printf("STD: %%, %c, %s, %p, %d, %i, %u, %x, %X\n",
-           c, str, (void *)&p, d, i, u, 0xFF, 0xFF);
+    // Test with printf standard
+    printf("STD : %%, ");
+    printf("%s, ", str);
+    printf("%p, ", (void *)&p);
+    printf("%d, ", d);
+    printf("%i, ", i);
+    printf("%u, ", u);
+    printf("%x, %X\n", 0xFF, 0xFF);
 
     return 0;
 }
