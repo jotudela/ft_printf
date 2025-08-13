@@ -27,7 +27,6 @@ Formats supported : `c s p d i u x X %`
 Here, a litle explanation of each format :
 
 |           Specifier            |
-|--------------------------------|
 | Format Specifier | Description |
 |------------------|-------------|
 | c                | write a single character |
