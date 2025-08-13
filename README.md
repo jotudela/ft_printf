@@ -98,12 +98,16 @@ int main(void)
 }
 ```
 
+---
+
 Step 3:
 
 Once the file is builded, compile it with this :
 ```bash
 gcc -Wall -Wextra -Werror libftprintf.a test.c -o program
 ```
+
+---
 
 Step 4:
 
