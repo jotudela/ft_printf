@@ -61,7 +61,7 @@ the ft_printf linked to it.
 There is a simple program called `test.c`:
 
 ```bash
-//Include header form libft.h
+//Include header form ft_printf.h
 #include "ft_printf.h"
 
 int main( void )
@@ -71,7 +71,7 @@ int main( void )
     int p = 42;
     int d = 66;
     int i = 21;
-    usigned int u = 32;
+    unsigned int u = 32;
 
     ft_printf("%%, %c, %s, %p, %d, %i, %u, %x, %X\n", c, str, (void *)p, d, i, u, 0xFF, 0xFF);
     return 0;
