@@ -114,7 +114,7 @@ Run with this :
 
 And your terminal will print :
 ```bash
-%, a, Hello World !, address of variable p, 66, 21, 32
+%, a, Hello World !, address of variable p, 66, 21, 32, ff, FF
 ```
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
